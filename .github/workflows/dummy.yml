@@ -3,7 +3,7 @@ on:
   workflow_dispatch: null
 jobs:
   build:
-    runs-on: githubrunner
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
